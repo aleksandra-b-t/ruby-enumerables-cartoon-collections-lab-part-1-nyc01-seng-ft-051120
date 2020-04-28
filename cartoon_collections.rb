@@ -6,7 +6,9 @@ def greet_characters(array)
 
  
 def list_dwarves(array)
-   array.each do |person|
-   puts person
+  counter = 1;
+  while counter <= array.length do
+   puts counter +". " + array[counter]
+   counter += 1
 end
 end
