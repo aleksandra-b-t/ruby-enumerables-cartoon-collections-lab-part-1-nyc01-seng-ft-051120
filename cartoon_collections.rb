@@ -6,9 +6,11 @@ def greet_characters(array)
 
  
 def list_dwarves(array)
-  counter = 1;
+  counter = 0;
+  num = 1;
   while counter <= array.length do
-   puts "#{counter}. #{array[counter]}" 
+   puts "#{num}. #{array[counter]}" 
    counter += 1
+   num += 1
 end
 end
