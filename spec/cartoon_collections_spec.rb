@@ -8,8 +8,6 @@ describe "Using Each" do
       output = capture_stdout do
         greet_characters(dwarves)
       end
-    dwarves.each do |dwarver|
-   puts "Hello #{dwarver}"
 end
       # This regex allows for arbitrary characters between
       # the numbering and the name
